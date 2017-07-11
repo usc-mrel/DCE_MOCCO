@@ -15,12 +15,12 @@ Read in-vivo DCE MRI data, and retrospective under-sample the data by GOCART. Pe
 
 ## Functions:
 
-**conc2Ktrans_Y.m**: Backward modeling to convert contrast concentration to TK parameter maps.
-**conc2sigD.m**: Convert contrast concentration to signal (image difference).
-**genRGA.m**: Generate randomized golden-angle radial sampling pattern.
-**model_extended_tofts_s.m**: Forward modeling from eTofts TK maps to contrast concentration.
-**Ktrans2conc.m**: Forward modeling to convert Patlak TK maps to contrast concentration.
-**sig2conc2D.m**: Convert signal (image difference) to contrast concentration.
-**multi_disp_e.m**: Utility function to visualize eTofts TK parameters.
-**CG_recon.m**: CG reconstruction of signal (image difference) from under-sampled k-space
-**SAIF_p.m**: Generate population-averaged AIF.
+**conc2Ktrans_Y.m**: Backward modeling to convert contrast concentration to TK parameter maps.<br /> 
+**conc2sigD.m**: Convert contrast concentration to signal (image difference).<br /> 
+**genRGA.m**: Generate randomized golden-angle radial sampling pattern.<br /> 
+**model_extended_tofts_s.m**: Forward modeling from eTofts TK maps to contrast concentration.<br /> 
+**Ktrans2conc.m**: Forward modeling to convert Patlak TK maps to contrast concentration.<br /> 
+**sig2conc2D.m**: Convert signal (image difference) to contrast concentration.<br /> 
+**multi_disp_e.m**: Utility function to visualize eTofts TK parameters.<br /> 
+**CG_recon.m**: CG reconstruction of signal (image difference) from under-sampled k-space. <br /> 
+**SAIF_p.m**: Generate population-averaged AIF.<br /> 
