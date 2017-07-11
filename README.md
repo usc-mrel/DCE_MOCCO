@@ -12,3 +12,15 @@ Option to select different TK solver: 1. Third-party Rocketship. 2. In-house gra
 
 **AIF_TK_patlak_demo.m:**
 Read in-vivo DCE MRI data, and retrospective under-sample the data by GOCART. Perform MOCCO to jointly reconstruct both AIF and patlak TK maps from under-sampled data. 
+
+## Functions:
+
+**conc2Ktrans_Y.m**: Backward modeling to convert contrast concentration to TK parameter maps.
+**conc2sigD.m**: Convert contrast concentration to signal (image difference).
+**genRGA.m**: Generate randomized golden-angle radial sampling pattern.
+**model_extended_tofts_s.m**: Forward modeling from eTofts TK maps to contrast concentration.
+**Ktrans2conc.m**: Forward modeling to convert Patlak TK maps to contrast concentration.
+**sig2conc2D.m**: Convert signal (image difference) to contrast concentration.
+**multi_disp_e.m**: Utility function to visualize eTofts TK parameters.
+**CG_recon.m**: CG reconstruction of signal (image difference) from under-sampled k-space
+**SAIF_p.m**: Generate population-averaged AIF.
