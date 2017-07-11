@@ -6,6 +6,8 @@ addpath(genpath('minFunc_2012'));
 % demonstration of joint estimation of AIF and TK (Patlak model)
 
 load ../Research_coding/Direct_recon/Direct_save_2/DCE50_0421.mat;
+%please download demo in-vivo data from: 
+%https://drive.google.com/file/d/0B4nLrDuviSiWXzJhLWFwN1c1ZG8/view?usp=sharing
 
 ns=1; % take one slice of k-space for speed
 k=k(:,:,ns,:,:);

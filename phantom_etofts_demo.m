@@ -8,6 +8,8 @@ addpath(genpath('minFunc_2012'));
 % Both phantom and the solver are based on e-Tofts model
 
 load ../Research_coding/Direct_split_phantom/phantom_data; % load phantom
+%please download demo phantom data from: 
+%https://drive.google.com/file/d/0B4nLrDuviSiWT3ZKUmd0YjRwUEU/view?usp=sharing 
 
 solver='G'; 
 % 'R' to select Rocketship solver, 
