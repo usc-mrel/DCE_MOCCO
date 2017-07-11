@@ -2,7 +2,7 @@
 Direct model-based reconstruction of TK maps for accelerated DCE-MRI using a flexible MOCCO approach.
 
 ## Demo data
-please download demo phantom data from: https://drive.google.com/file/d/0B4nLrDuviSiWT3ZKUmd0YjRwUEU/view?usp=sharing \n
+please download demo phantom data from: https://drive.google.com/file/d/0B4nLrDuviSiWT3ZKUmd0YjRwUEU/view?usp=sharing <br /> 
 please download demo in-vivo data from: https://drive.google.com/file/d/0B4nLrDuviSiWXzJhLWFwN1c1ZG8/view?usp=sharing 
 
 ## Demo scripts
