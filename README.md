@@ -7,7 +7,7 @@ please download demo in-vivo data from: <br /> https://drive.google.com/file/d/0
 
 ## Demo scripts
 **phantom_etofts_demo.m:**
-Read pre-calculated eTofts TK maps and generated k-space (ref Yannick's work), and perform MOCCO to reconstruct TK maps from under-sampled data.
+Read pre-calculated eTofts TK maps and generated k-space (R.J Bosca et al. Phys. Med. Biol, 2016 & Y Bliesener et al. ISMRM 2017, p1909), and perform MOCCO to reconstruct TK maps from under-sampled data.
 Option to select different TK solver: 1. Third-party Rocketship. 2. In-house gradient solver.
 
 **AIF_TK_patlak_demo.m:**
