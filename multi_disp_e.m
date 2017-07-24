@@ -29,9 +29,6 @@ vpd=vp(x1:x2,y1:y2,1);
 
 for i=2:nd
     ktd=[ktd,kt(x1:x2,y1:y2,i)];
-    %msekt(i-1)=MSE(kt(:,:,i),kt(:,:,1));
-    msekt(i-1)=MSE(kt(x1:x2,y1:y2,i),kt(x1:x2,y1:y2,1));
-
     kepd=[kepd,kep(x1:x2,y1:y2,i)];
     vpd=[vpd,vp(x1:x2,y1:y2,i)];
 end
